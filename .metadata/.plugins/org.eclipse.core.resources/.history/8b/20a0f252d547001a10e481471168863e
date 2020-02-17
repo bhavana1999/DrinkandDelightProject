@@ -1,0 +1,13 @@
+package collection;
+class Interface  {
+	static void dbm{
+	}
+}
+	
+ class Interface2 implements Interface{
+	public static void main(String[] args) {
+	Interface i=new Interface();
+	i.dbm;
+	
+	}
+}

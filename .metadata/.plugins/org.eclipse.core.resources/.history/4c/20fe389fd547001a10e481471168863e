@@ -1,0 +1,6 @@
+package collection;
+class Interface  {
+	static void dbm{
+	System.out.println("abc");}
+
+}

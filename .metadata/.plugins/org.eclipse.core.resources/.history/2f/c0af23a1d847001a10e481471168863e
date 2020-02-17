@@ -1,0 +1,9 @@
+package collection;
+
+public class InterfaceDemo implements Interface2{
+	public static void main(String[] args){
+			InterfaceDemo i=new InterfaceDemo();
+			i.dbm;
+		}
+
+}

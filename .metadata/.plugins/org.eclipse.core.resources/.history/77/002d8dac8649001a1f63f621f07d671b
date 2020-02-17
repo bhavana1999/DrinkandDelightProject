@@ -1,0 +1,35 @@
+package Reverse.java;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.List;
+
+public class LabThreetwo {
+
+public static void main(String[] args) {
+    int rev;
+List<Integer> nums=Arrays.asList(123,341,456,675,453);
+List<Integer> nums1=new ArrayList<>();
+for(Integer i:nums)
+{
+rev=0;
+int n=i;
+while(n>0)
+{
+int r=n%10;
+rev=rev*10+r;
+n=n/10;
+}
+nums1.add(rev);
+}
+System.out.println("AFTER REVERSING------------------------------------------");
+System.out.println(nums1);
+    System.out.println();
+System.out.println("AFTER SORTING--------------------------------------------");
+Collections.sort(nums1);
+System.out.println(nums1);
+
+}
+
+}
